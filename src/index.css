@@ -37,7 +37,8 @@ header {
 
 .section-title {
 /* background-color: rgb(44, 44, 44, 0.6); */
-padding-bottom: 50px;
+padding: 0 0 50px 0;
+margin: 20px 0 0 0;
 /* margin-top: -70px; */
 }
 
@@ -68,7 +69,7 @@ li {
 }
 
 section {
-  padding: 0 0px 100px 0;
+  padding: 0 0 100px 0;
   border-bottom: 1px solid var(--black);
 }
 

@@ -8,8 +8,8 @@ export default function Nav() {
       <Container>
         <Row className="full-width">
           <Col md={4}>
-            <h1 classname="href-links">
-              <a href="/" classname="href-links">
+            <h1 className="href-links">
+              <a href="/" className="href-links">
                 Innerlight Vibrations
               </a>
             </h1>
@@ -18,12 +18,12 @@ export default function Nav() {
             <nav>
               <ul className="flex-row">
                 <li className="flex-row">
-                  <a classname="href-links" href="#about">
+                  <a className="href-links" href="#about">
                     About Me
                   </a>
                 </li>
                 <li>
-                  <a classname="href-links" href="#sound-healing">
+                  <a className="href-links" href="#sound-healing">
                     Sound Healing
                   </a>
                 </li>
