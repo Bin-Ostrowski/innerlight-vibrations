@@ -9,7 +9,7 @@
   --secondary:#89B200;
   --tertiary: #D49A3A;
   --light: rgb(255, 189, 145);
-  --black: rgb(14, 14, 14);
+  --black: rgb(46, 20, 3);
 
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
@@ -29,33 +29,16 @@ body {
 
 header {
   background-color: var(--primary) ;
+  border-bottom: 1px solid var(--black);
   position: sticky;
   top: 0;
   z-index: 9999; 
-    background-image: url("./assets/img/singing-bowl-crop.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-}
-
-.hero {
-  background-image: url("./assets/img/singing-bowl-crop.jpg");/*fill with image */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  background-attachment: fixed;
-  background-position: 80%;
-  padding: 700px 20px 20px 20px;
 }
 
 .section-title {
-background-color: rgb(44, 44, 44, 0.6);
+/* background-color: rgb(44, 44, 44, 0.6); */
 padding-bottom: 50px;
-margin-top: -70px;
+/* margin-top: -70px; */
 }
 
 h1 {
@@ -67,7 +50,7 @@ ul {
 }
 
 li {
-  padding: 20px 10px 0 0;
+  padding: 20px 20px 0 0;
 }
 
 .flex-row {
@@ -75,8 +58,18 @@ li {
   flex-wrap: wrap;
 }
 
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
 section {
   padding: 0 0px 100px 0;
+  border-bottom: 1px solid var(--black);
 }
 
 footer {
@@ -85,13 +78,12 @@ footer {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--black);
   text-decoration: none;
   
 }
 
 a:hover {
-  border-radius: 2px;
   text-decoration: none;
   border-color: var(--light);
   cursor: pointer;
@@ -99,8 +91,8 @@ a:hover {
   
 }
 
-/* .href-links {
-  color: var(--light);
+.href-links {
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -108,7 +100,7 @@ a:hover {
   color: var(--tertiary);
   text-decoration: none;
   cursor: pointer;
-} */
+}
 
 .form {
   padding: 0 50px 0 20px;

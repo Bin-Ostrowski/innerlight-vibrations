@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div>
       <Nav></Nav>
-        <section className="hero"></section>
+        {/* <section className="hero"></section> */}
       <main>
         <About></About>
         <SoundHealing></SoundHealing>
