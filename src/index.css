@@ -1,0 +1,155 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #FFF9E9;
+  --secondary:#89B200;
+  --tertiary: #D49A3A;
+  --light: rgb(255, 189, 145);
+  --black: rgb(14, 14, 14);
+
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  background: var(--primary);
+  color: var(--light);
+}
+
+header {
+  background-color: var(--primary) ;
+  position: sticky;
+  top: 0;
+  z-index: 9999; 
+    background-image: url("./assets/img/singing-bowl-crop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+.hero {
+  background-image: url("./assets/img/singing-bowl-crop.jpg");/*fill with image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding: 700px 20px 20px 20px;
+}
+
+.section-title {
+background-color: rgb(44, 44, 44, 0.6);
+padding-bottom: 50px;
+margin-top: -70px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+li {
+  padding: 20px 10px 0 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  padding: 0 0px 100px 0;
+}
+
+footer {
+  background: var( --tertiary);
+  color: var(--primary)
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  border-radius: 2px;
+  text-decoration: none;
+  border-color: var(--light);
+  cursor: pointer;
+ 
+  
+}
+
+/* .href-links {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.href-links:hover {
+  color: var(--tertiary);
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.form {
+  padding: 0 50px 0 20px;
+}
+
+.project-cards {
+  margin: 20px;
+  background-color: var(--light);
+}
+
+.card-background {
+  background-color: var(--primary);
+}
+
+.project-img {
+  max-height: 200px;
+  object-fit: cover;
+  object-position: top;
+  top: 0;
+}
+
+.deploy-btn {
+  color: var(--secondary);
+  text-decoration: none;
+} 
+
+.deploy-btn:hover {
+  color: var(--secondary);
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.project-github-btn {
+  padding-top: 10px;
+}
+
+.navActive {
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
+.navActive {
+  cursor: pointer;
+}
