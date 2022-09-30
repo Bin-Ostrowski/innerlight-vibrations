@@ -6,13 +6,12 @@ export default function About() {
   return (
     <section>
       <Container>
-        <Row className="section-title">
-          <Col>
-            <h1 id="about">Meet Nichole</h1>
-          </Col>
-        </Row>
         <Row>
           <Col className="md">
+            <img className="portrait" src={portrait} style={{ width: "20" }} alt="portrait" />
+          </Col>
+          <Col className="md">
+            <h1 className="section-title" id="about">Meet Nichole</h1>
             <p>
               Full-stack web developer leveraging knowledge in creating
               intuitive and concise web applications focused on the user’s
@@ -22,9 +21,6 @@ export default function About() {
               pursuit of building maintainable web applications everyone enjoys
               using.{" "}
             </p>
-          </Col>
-          <Col>
-            <img src={portrait} style={{ width: "50" }} alt="portrait" />
           </Col>
         </Row>
       </Container>

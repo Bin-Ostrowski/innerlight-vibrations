@@ -19,7 +19,7 @@ export default function Nav() {
               <ul className="flex-row">
                 <li className="flex-row">
                   <a className="href-links" href="#about">
-                    About Me
+                    About
                   </a>
                 </li>
                 <li>
@@ -28,16 +28,16 @@ export default function Nav() {
                   </a>
                 </li>
                 <li>
-                  <a href="#counseling">Counseling</a>
+                  <a className="href-links" href="#counseling">Counseling</a>
                 </li>
                 <li>
-                  <a href="#insurance">Insurance</a>
+                  <a className="href-links" href="#insurance">Insurance</a>
                 </li>
                 <li>
-                  <a href="#gift-card">Gift Cards</a>
+                  <a className="href-links" href="#gift-card">Gift Cards</a>
                 </li>
                 <li>
-                  <span>Contact</span>
+                  <span className="contact-btn">Contact</span>
                 </li>
               </ul>
             </nav>

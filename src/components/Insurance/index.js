@@ -15,7 +15,7 @@ export default function Insurance() {
          
           </Col>
           <Col className="md">
-           
+           <p>BlueCross and BlueShield, Cigna and Evernorth, PacificSource, Providence</p>
           </Col>
         </Row>
       </Container>
