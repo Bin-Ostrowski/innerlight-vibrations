@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Insurance() {
   return (
-    <section>
+    <section  id="insurance">
       <Container>
         <Row className="section-title">
           <Col>
-            <h1 id="insurance">Insurance</h1>
+            <h1>Insurance</h1>
           </Col>
         </Row>
         <Row>

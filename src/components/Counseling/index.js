@@ -3,19 +3,87 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Counseling() {
   return (
-    <section>
+    <section id="counseling">
       <Container>
         <Row className="section-title">
           <Col>
-            <h1 id="counseling">Counseling</h1>
+            <h1>Counseling</h1>
+            <p>Licensed Profectional Counselor, LPC, MA, VSTCP</p>
+            <p>Offers Online Therapy</p>
+            <p>Years in Practice: 6 Years</p>
+            <p>License: Oregon / C5248</p>
           </Col>
         </Row>
         <Row>
-          <Col className="md" style={{padding: "20px"}}>
-         
+          <Col className="md">
+            <h3>Specialties</h3>
+            <ul>
+              <li>Anxiety</li>
+              <li>Depression</li>
+              <li>Trauma and PTSD</li>
+            </ul>
           </Col>
           <Col className="md">
-           
+          <h3>Issues</h3>
+          <ul>
+              <li>Coping Skills</li>
+              <li>Life Coaching</li>
+              <li>Life Transitions</li>
+              <li>Peer Relationships</li>
+              <li>Relationship Issues</li>
+              <li>Self Esteem</li>
+              <li>Spirituality</li>
+              <li>Stress</li>
+            </ul>
+          </Col>
+          <Col className="md">
+          <h3>Mental Health</h3>
+          <ul>
+              <li>Mood Dissorders</li>
+            </ul>
+          </Col>
+          <Col className="md">
+          <h3>Sexuality</h3>
+          <ul>
+              <li>Bisexual</li>
+              <li>LGTBQ+</li>
+              <li>Lesbian</li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <h3>Age</h3>
+          <ul>
+              <li>Adults</li>
+            </ul>
+          </Col>
+          <Col>
+          <h3>Communities</h3>
+          <ul>
+              <li>Bisexual Allied</li>
+              <li>Gay Allied</li>
+              <li>Lesbian Allied</li>
+              <li>Non-Binary Allied</li>
+              <li>Transgender Allied</li>
+            </ul>
+          </Col>
+          <Col>
+          <h3>Types of Theraphy</h3>
+          <ul>
+              <li>Compassion Focused</li>
+              <li>Mindfulness-Based (MBCT)</li>
+              <li>Solution Focused  Brief (SFBT)</li>
+              <li>Somatic</li>
+              <li>Strength-Based</li>
+            </ul>
+          </Col>
+          <Col>
+          <h3>Modality</h3>
+          <ul>
+              <li>Individuals</li>
+              
+            </ul>
           </Col>
         </Row>
       </Container>

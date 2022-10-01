@@ -4,7 +4,7 @@ import portrait from "../../assets/img/portrait.jpg";
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <Container>
         <Row>
           <Col className="md">
@@ -16,7 +16,7 @@ export default function About() {
             />
           </Col>
           <Col className="md">
-            <h1 className="section-title" id="about">
+            <h1 className="section-title">
               YOU DESERVE TO FEEL EMPOWERED IN YOUR OWN LIFE
             </h1>
             <p>

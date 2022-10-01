@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import { Button, Form, Container, Row, Col } from "react-bootstrap";
-// import "./contact.css";
 
 export default function ContactForm() {
   //declare formState to be empty strings
@@ -53,11 +52,11 @@ export default function ContactForm() {
   // }
 
   return (
-    <section>
+    <section id="contact">
       <Container>
         <Row className="section-title">
           <Col>
-            <h1 id="about">Contact Me</h1>
+            <h1>Contact Me</h1>
           </Col>
         </Row>
         <Row>

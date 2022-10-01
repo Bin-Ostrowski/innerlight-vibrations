@@ -17,27 +17,27 @@ export default function Nav() {
           <Col md={{ span: 7, offset: 1 }}>
             <nav>
               <ul className="flex-row">
-                <li className="flex-row">
-                  <a className="href-links" href="#about">
+                <li>
+                  <a className="href-links nav-links" href="#about">
                     About
                   </a>
                 </li>
                 <li>
-                  <a className="href-links" href="#sound-healing">
+                  <a className="href-links nav-links" href="#sound-healing">
                     Sound Healing
                   </a>
                 </li>
                 <li>
-                  <a className="href-links" href="#counseling">Counseling</a>
+                  <a className="href-links nav-links" href="#counseling">Counseling</a>
                 </li>
                 <li>
-                  <a className="href-links" href="#insurance">Insurance</a>
+                  <a className="href-links nav-links" href="#insurance">Insurance</a>
                 </li>
                 <li>
-                  <a className="href-links" href="#gift-card">Gift Cards</a>
+                  <a className="href-links nav-links" href="#gift-card">Gift Cards</a>
                 </li>
                 <li>
-                  <span className="contact-btn">Contact</span>
+                  <span className="contact-btn nav-links">Contact</span>
                 </li>
               </ul>
             </nav>

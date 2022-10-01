@@ -52,7 +52,7 @@ ul {
   list-style-type: none; 
 }
 
-li {
+.nav-links {
   padding: 20px 20px 0 0;
 }
 

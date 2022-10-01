@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function GiftCard() {
   return (
-    <section>
+    <section  id="gift-card">
       <Container>
         <Row className="section-title">
           <Col>
-            <h1 id="gift-card">Gift Cards</h1>
+            <h1>Gift Cards</h1>
           </Col>
         </Row>
         <Row>

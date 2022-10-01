@@ -4,7 +4,7 @@ import singingBowls from "../../assets/img/singing-bowls.jpg";
 
 export default function SoundHealing({ currentProject }) {
   return (
-    <section>
+    <section  id="sound-healing">
       <Container>
         <Row className="section-title">
           <Col>
@@ -16,7 +16,7 @@ export default function SoundHealing({ currentProject }) {
           <a href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search">Image by wirestock</a> on Freepik
           </Col>
           <Col className="md">
-            <h1 id="sound-healing">Sound Healing</h1>
+            <h1>Sound Healing</h1>
           </Col>
         </Row>
       </Container>
