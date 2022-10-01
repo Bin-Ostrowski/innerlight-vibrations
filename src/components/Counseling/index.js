@@ -5,9 +5,9 @@ export default function Counseling() {
   return (
     <section id="counseling">
       <Container>
-        <Row className="section-title">
+        <Row>
           <Col>
-            <h1>Counseling</h1>
+            <h1 className="section-title">Counseling</h1>
             <p>Licensed Profectional Counselor, LPC, MA, VSTCP</p>
             <p>Offers Online Therapy</p>
             <p>Years in Practice: 6 Years</p>

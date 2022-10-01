@@ -8,7 +8,7 @@ export default function Nav() {
       <Container>
         <Row className="full-width">
           <Col md={4}>
-            <h1 className="href-links">
+            <h1 className="href-links logo">
               <a href="/" className="href-links">
                 Innerlight Vibrations
               </a>
@@ -17,27 +17,27 @@ export default function Nav() {
           <Col md={{ span: 7, offset: 1 }}>
             <nav>
               <ul className="flex-row">
-                <li>
-                  <a className="href-links nav-links" href="#about">
+                <li className="nav-links">
+                  <a className="href-links" href="#about">
                     About
                   </a>
                 </li>
-                <li>
-                  <a className="href-links nav-links" href="#sound-healing">
+                <li className="nav-links">
+                  <a className="href-links" href="#sound-healing">
                     Sound Healing
                   </a>
                 </li>
-                <li>
-                  <a className="href-links nav-links" href="#counseling">Counseling</a>
+                <li className="nav-links">
+                  <a className="href-links" href="#counseling">Counseling</a>
                 </li>
-                <li>
-                  <a className="href-links nav-links" href="#insurance">Insurance</a>
+                <li className="nav-links">
+                  <a className="href-links" href="#insurance">Insurance</a>
                 </li>
-                <li>
-                  <a className="href-links nav-links" href="#gift-card">Gift Cards</a>
+                <li className="nav-links">
+                  <a className="href-links" href="#gift-card">Gift Cards</a>
                 </li>
-                <li>
-                  <span className="contact-btn nav-links">Contact</span>
+                <li className="nav-links">
+                  <span className="contact-btn">Contact</span>
                 </li>
               </ul>
             </nav>
