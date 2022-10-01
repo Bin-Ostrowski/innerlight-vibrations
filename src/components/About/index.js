@@ -8,18 +8,42 @@ export default function About() {
       <Container>
         <Row>
           <Col className="md">
-            <img className="portrait" src={portrait} style={{ width: "20" }} alt="portrait" />
+            <img
+              className="portrait"
+              src={portrait}
+              style={{ width: "20" }}
+              alt="portrait"
+            />
           </Col>
           <Col className="md">
-            <h1 className="section-title" id="about">Meet Nichole</h1>
+            <h1 className="section-title" id="about">
+              YOU DESERVE TO FEEL EMPOWERED IN YOUR OWN LIFE
+            </h1>
             <p>
-              Full-stack web developer leveraging knowledge in creating
-              intuitive and concise web applications focused on the user’s
-              engagement. Known for resourceful problem solving with dedication
-              to creating dry, scalable applications. Thrives in the
-              ever-changing industry while supporting a quality-driven team in
-              pursuit of building maintainable web applications everyone enjoys
-              using.{" "}
+              To be the one who confidently shows up for yourself in times of
+              difficulty. I believe empowerment happens through a better
+              understanding of how stress and trauma manifests in our bodies and
+              minds. I seek to support and work with those who experience
+              barriers to empowerment, due to anxiety, depression, trauma.
+              Though understanding the ways in which your body responds to and
+              holds onto stress and trauma, we will question and challenge old
+              stories, thoughts and behaviors that hold you back from embodying
+              your empowered self, and learn tools to help you feel more in
+              control.
+              <br />
+              <br />
+              As a mind-body therapist, I create a safe, supportive space to
+              help you explore and question the physical and emotional patterns
+              that no longer serve you. I use an integrative tool kit of
+              mindfulness, meditation, sound, guided imagery, grounding
+              techniques, somatic tools, and more.
+              <br />
+              <br />
+              If you are ready to feel more empowered, create a more mindful
+              relationship with your body and the way it responds to stress,
+              trauma, anxiety and depression, and receive compassionate support
+              towards becoming a more empowered version of yourself, I look
+              forward to working together.{" "}
             </p>
           </Col>
         </Row>
