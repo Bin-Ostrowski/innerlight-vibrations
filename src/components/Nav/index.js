@@ -37,7 +37,7 @@ export default function Nav() {
                   <a className="href-links" href="#gift-card">Gift Cards</a>
                 </li>
                 <li className="nav-links">
-                  <span className="contact-btn">Contact</span>
+                  <a className="contact-btn" href="#contact">Contact</a>
                 </li>
               </ul>
             </nav>

@@ -5,15 +5,17 @@ import portrait from "../../assets/img/portrait.jpg";
 export default function About() {
   return (
     <section id="about">
-      <Container>
-        <Row>
-          <Col className="md">
+      <Container className="flex-row">
+        <Row className="flex-row">
+          <Col className="md portrait-CTA-container">
             <img
               className="portrait"
               src={portrait}
               style={{ width: "20" }}
               alt="portrait"
             />
+            <a className="CTA" href="#contact">Request a free 15-minute phone call or video consult!</a>
+
           </Col>
           <Col className="md">
             <h1 className="section-title">

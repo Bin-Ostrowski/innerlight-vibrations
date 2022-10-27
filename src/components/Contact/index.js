@@ -62,7 +62,8 @@ export default function ContactForm() {
         <Row>
           <Col className="md form">
             <Form
-              action="https://formsubmit.co/bin.ostrowski@gmail.com"
+              action="https://formsubmit.co/bin.ostrowski@gmail.com" //porternich@gmail.com
+
               method="POST"
               target="_blank"
               className="form"

@@ -8,7 +8,7 @@ export default function Footer() {
       <Container>
         <Row className="justify-content-sm-center">
           <Col xs="auto">
-            <div>&copy;2022 by Robin Ostrowski</div>
+            <div>Robin Ostrowski, 2022</div>
           </Col>
         </Row>
       </Container>
