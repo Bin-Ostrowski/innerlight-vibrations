@@ -5,17 +5,29 @@ export default function Counseling() {
   return (
     <section id="counseling">
       <Container>
-        <Row>
-          <Col>
-            <h1 className="section-title">Counseling</h1>
-            <p>Licensed Profectional Counselor, LPC, MA, VSTCP</p>
-            <p>Offers Online Therapy</p>
-            <p>Years in Practice: 6 Years</p>
-            <p>License: Oregon / C5248</p>
+        <h1 className="section-title">Counseling</h1>
+
+        <Row className="cards-container">
+          <Col md={4} className="cards">
+            <h3>About Me</h3>
+            <ul>
+              <li>Licensed Profectional Counselor, LPC, MA, VSTCP</li>
+              <li>Offers Online Therapy</li>
+              <li>Years in Practice: 6 Years</li>
+              <li>License: Oregon / C5248</li>
+            </ul>
           </Col>
-        </Row>
-        <Row>
-          <Col className="md">
+          <Col md={4} className="cards">
+            <h3>Types of Theraphy</h3>
+            <ul>
+              <li>Compassion Focused</li>
+              <li>Mindfulness-Based (MBCT)</li>
+              <li>Solution Focused Brief (SFBT)</li>
+              <li>Somatic</li>
+              <li>Strength-Based</li>
+            </ul>
+          </Col>
+          <Col md={4} className="cards">
             <h3>Specialties</h3>
             <ul>
               <li>Anxiety</li>
@@ -23,9 +35,9 @@ export default function Counseling() {
               <li>Trauma and PTSD</li>
             </ul>
           </Col>
-          <Col className="md">
-          <h3>Issues</h3>
-          <ul>
+          <Col md={3} className="cards">
+            <h3>Issues</h3>
+            <ul>
               <li>Coping Skills</li>
               <li>Life Coaching</li>
               <li>Life Transitions</li>
@@ -36,31 +48,29 @@ export default function Counseling() {
               <li>Stress</li>
             </ul>
           </Col>
-          <Col className="md">
-          <h3>Mental Health</h3>
-          <ul>
+          <Col md={3} className="cards">
+            <h3>Mental Health</h3>
+            <ul>
               <li>Mood Dissorders</li>
             </ul>
           </Col>
-          <Col className="md">
-          <h3>Sexuality</h3>
-          <ul>
+          <Col md={3} className="cards">
+            <h3>Sexuality</h3>
+            <ul>
               <li>Bisexual</li>
               <li>LGTBQ+</li>
               <li>Lesbian</li>
             </ul>
           </Col>
-        </Row>
-        <Row>
-          <Col>
-          <h3>Age</h3>
-          <ul>
+          <Col md={3} className="cards">
+            <h3>Age</h3>
+            <ul>
               <li>Adults</li>
             </ul>
           </Col>
-          <Col>
-          <h3>Communities</h3>
-          <ul>
+          <Col md={3} className="cards">
+            <h3>Communities</h3>
+            <ul>
               <li>Bisexual Allied</li>
               <li>Gay Allied</li>
               <li>Lesbian Allied</li>
@@ -68,21 +78,11 @@ export default function Counseling() {
               <li>Transgender Allied</li>
             </ul>
           </Col>
-          <Col>
-          <h3>Types of Theraphy</h3>
-          <ul>
-              <li>Compassion Focused</li>
-              <li>Mindfulness-Based (MBCT)</li>
-              <li>Solution Focused  Brief (SFBT)</li>
-              <li>Somatic</li>
-              <li>Strength-Based</li>
-            </ul>
-          </Col>
-          <Col>
-          <h3>Modality</h3>
-          <ul>
+          
+          <Col md={3} className="cards">
+            <h3>Modality</h3>
+            <ul>
               <li>Individuals</li>
-              
             </ul>
           </Col>
         </Row>

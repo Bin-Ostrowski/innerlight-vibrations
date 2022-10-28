@@ -8,6 +8,7 @@
   --primary: #FFF9E9;
   --secondary:rgb(128, 148, 151);
   --tertiary: #D49A3A;
+  --cards: rgb(205, 196, 161, 0.5);
   --light: rgb(243, 172, 125);
   --black: rgb(46, 20, 3);
 
@@ -21,7 +22,7 @@ body {
 body {
   font-family:'Times New Roman', Times, serif;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 1.2rem;
   letter-spacing: .1em;
   background: var(--primary);
   color: var(--tertiary);
@@ -163,11 +164,10 @@ border-bottom: 1px solid var(--black);
 .list-text {
   line-height: 1.8;
   font-size: 1.2em;
-
 }
 
 .sub-container {
-background-color:rgb(205, 196, 161, 0.5);
+background-color: var(--cards);
 border-radius: 0px 70px;
 text-align: center;
 margin: 30px;
@@ -184,37 +184,16 @@ padding: .5px 0 20px 0;
   padding: 0 50px 0 20px;
 }
 
-.project-cards {
-  margin: 20px;
-  background-color: var(--light);
+.cards-container {
+  margin-right: 30px;
 }
+.cards {
+  background-color: var(--cards);
+  margin: 30px 0 30px 30px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 0 40px;
 
-.card-background {
-  background-color: var(--primary);
 }
-
-.project-img {
-  max-height: 200px;
-  object-fit: cover;
-  object-position: top;
-  top: 0;
-}
-
-.deploy-btn {
-  color: var(--secondary);
-  text-decoration: none;
-} 
-
-.deploy-btn:hover {
-  color: var(--secondary);
-  text-decoration: none;
-  cursor: pointer;
-} 
-
-.project-github-btn {
-  padding-top: 10px;
-}
-
 .navActive {
   color: var(--tertiary);
   text-decoration: none;
