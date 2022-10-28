@@ -14,7 +14,7 @@ export default function About() {
               style={{ width: "20" }}
               alt="portrait"
             />
-            <a className="CTA" href="#contact">Request a free 15-minute phone call or video consult!</a>
+            <a className="contact-btn" href="#contact">Request a free 15-minute phone call or video consult!</a>
 
           </Col>
           <Col className="md">

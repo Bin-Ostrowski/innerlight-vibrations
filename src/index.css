@@ -6,9 +6,9 @@
 
 :root {
   --primary: #FFF9E9;
-  --secondary:#89B200;
+  --secondary:rgb(128, 148, 151);
   --tertiary: #D49A3A;
-  --light: rgb(255, 189, 145);
+  --light: rgb(243, 172, 125);
   --black: rgb(46, 20, 3);
 
 }
@@ -38,7 +38,7 @@ header {
 
 .section-title {
 /* background-color: rgb(44, 44, 44, 0.6); */
-padding: 0 0 50px 0;
+padding: 0 0 30px 0;
 margin: 20px 0 0 0;
 color: var(--black);
 /* margin-top: -70px; */
@@ -106,11 +106,6 @@ section {
     margin-bottom: 30px;
 }
 
-.singing-bowls-img {
-  width: 60%;
-    height: auto;
-}
-
 footer {
   background: var( --tertiary);
   color: var(--primary)
@@ -142,6 +137,7 @@ a:hover {
 .contact-btn {
   background-color: var(--tertiary);
   border-radius: 25px;
+  margin: 0 auto;
   padding: 5px 10px 5px 10px;
   color: var(--black);
   text-decoration: none;
@@ -152,6 +148,31 @@ a:hover {
   color: var(--black);
   text-decoration: none;
   cursor: pointer;
+}
+
+.sound-healing {
+  background-color: var(--secondary);
+  color: var(--black);
+}
+
+.VST-uses-container {
+padding: 20px;
+border-bottom: 1px solid var(--black);
+
+}
+
+.sub-container {
+background-color:rgb(205, 196, 161, 0.5);
+border-radius: 0px 70px;
+text-align: center;
+margin: 30px;
+padding: .5px 0 20px 0;
+}
+
+.singing-bowls-img {
+  width: 100%;
+    height: auto;
+    border-radius: 70px;
 }
 
 .form {

@@ -4,26 +4,39 @@ import singingBowls from "../../assets/img/singing-bowls.jpg";
 
 export default function SoundHealing({ currentProject }) {
   return (
-    <section id="sound-healing">
+    <section id="sound-healing" className="sound-healing">
       <Container>
-        <Row>
-          <Col md={6}>
-            <Stack>
-              <h1 className="section-title">Sound Healing</h1>
-              <h3>What Vibration Sound Theraphy is Used For:</h3>
-              <ul>
-                <li>Quickly introducing deep meditative states</li>
-                <li>Reducing depression and sleep issues</li>
-                <li>Easing blockages and tension</li>
-                <li>Entraning the brain</li>
-                <li>Reducing stress</li>
-                <li>Raising focus and gaining a clear mind</li>
-                <li>Calming the mind, body, and spirit in conjustion</li>
-                <li>Boosting Creativity</li>
-              </ul>
-            </Stack>
+        <Row className="flex-row VST-uses-container">
+          <Col md={9}>
+            <h1 className="sound-title">
+              Vibration Sound Theraphy (VST) is Used For:
+            </h1>
+            <ul className="VST-list-text">
+              <li>Quickly introducing deep meditative states</li>
+              <li>Reducing depression and sleep issues</li>
+              <li>Easing blockages and tension</li>
+              <li>Entraning the brain</li>
+              <li>Reducing stress</li>
+              <li>Raising focus and gaining a clear mind</li>
+              <li>Calming the mind, body, and spirit in conjustion</li>
+              <li>Boosting Creativity</li>
+            </ul>
+            <div className="sub-container">
+              <h3 className="section-title">
+                VST cannot be performed if the client has any of the following:
+              </h3>
+              <a
+                className="contact-btn"
+                href="https://docs.google.com/document/d/1J6Y9LB0SjlpushDSvDoXwa2E_T9a6pSZzFQq6x3lTDc/edit"
+                download
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Click Here to Download List
+              </a>
+            </div>
           </Col>
-          <Col md={6}>
+          <Col className="bowl-img-container">
             <Stack>
               <img
                 src={singingBowls}
@@ -90,28 +103,13 @@ export default function SoundHealing({ currentProject }) {
               can help us be more internally aware while being more present in
               the moment and more connected with our surroundings.
             </p>
+            Cited by VSA.
             <a
-              className="href-links"
+              className="contact-btn"
               href="https://www.vibrationalsoundassociation.com/what-happens-during-a-vst-session/"
             >
-              cited by VSA - click here for more information
-            </a>{" "}
-          </Stack>
-        </Row>
-        <Row>
-          <Stack>
-            <h3 className="section-title">
-              VST Cannot Be Performed If the Client Has Any Of the Following:
-            </h3>
-              <a
-                className="href-links"
-                href="https://docs.google.com/document/d/1J6Y9LB0SjlpushDSvDoXwa2E_T9a6pSZzFQq6x3lTDc/edit"
-                download
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Click Here to Download List
-              </a>
+              Click here for more information.
+            </a>
           </Stack>
         </Row>
       </Container>
