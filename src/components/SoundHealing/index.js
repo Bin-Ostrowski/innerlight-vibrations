@@ -9,9 +9,9 @@ export default function SoundHealing({ currentProject }) {
         <Row className="flex-row VST-uses-container">
           <Col md={9}>
             <h1 className="sound-title">
-              Vibration Sound Theraphy (VST) is Used For:
+              What Vibration Sound Theraphy (VST) is Used For:
             </h1>
-            <ul className="VST-list-text">
+            <ul className="list-text">
               <li>Quickly introducing deep meditative states</li>
               <li>Reducing depression and sleep issues</li>
               <li>Easing blockages and tension</li>
@@ -45,6 +45,7 @@ export default function SoundHealing({ currentProject }) {
               />
               <a
                 className="href-links"
+                target="_blank"
                 href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
               >
                 Image by wirestock on Freepik
@@ -106,6 +107,7 @@ export default function SoundHealing({ currentProject }) {
             Cited by VSA.
             <a
               className="contact-btn"
+              target="_blank"
               href="https://www.vibrationalsoundassociation.com/what-happens-during-a-vst-session/"
             >
               Click here for more information.

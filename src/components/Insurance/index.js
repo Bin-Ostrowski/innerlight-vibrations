@@ -3,19 +3,21 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export default function Insurance() {
   return (
-    <section  id="insurance">
+    <section id="insurance">
       <Container>
         <Row className="section-title">
           <Col>
-            <h1>Insurance</h1>
+            <h1>Insurance We Accept:</h1>
           </Col>
         </Row>
         <Row>
-          <Col className="md" style={{padding: "20px"}}>
-         
-          </Col>
           <Col className="md">
-           <p>BlueCross and BlueShield, Cigna and Evernorth, PacificSource, Providence</p>
+            <ul className="list-text">
+              <li>BlueCross and BlueShield</li>
+              <li>Cigna and Evernorth</li>
+              <li>PacificSource</li>
+              <li>Providence</li>
+            </ul>
           </Col>
         </Row>
       </Container>
