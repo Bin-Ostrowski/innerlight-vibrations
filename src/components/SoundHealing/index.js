@@ -47,6 +47,7 @@ export default function SoundHealing() {
               <a
                 className="href-links"
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
               >
                 Image by wirestock on Freepik
@@ -109,6 +110,7 @@ export default function SoundHealing() {
             <a
               className="contact-btn"
               target="_blank"
+              rel="noreferrer"
               href="https://www.vibrationalsoundassociation.com/what-happens-during-a-vst-session/"
             >
               Click here for more information.

@@ -7,12 +7,14 @@
 :root {
   --primary: #FFF9E9;
   --secondary:rgb(128, 148, 151);
-  --tertiary: #D49A3A;
+  /* --tertiary: #D49A3A; */
+  --tertiary: rgb(173, 119, 98);
   --quatrenary: rgb(120, 112, 97);
   --cards: rgb(205, 196, 161, 0.5);
   --light: rgb(243, 172, 125);
   --black: rgb(46, 20, 3);
   --green: rgb(101, 125, 58);
+  --logo: rgb(245, 240, 235);
 
 }
 
@@ -79,6 +81,10 @@ section {
   flex-wrap: wrap;
 }
 
+.about-section {
+  background-color: var(--logo);
+}
+
 .portrait-CTA-container {
   display: flex;
   flex-direction: column;
@@ -91,7 +97,7 @@ section {
   padding: 5px 10px 5px 10px;
   color: var(--black);
   text-decoration: none;
-  margin-bottom: 30px;
+  margin:-100px 0;
 }
 
 .CTA:hover {
@@ -108,6 +114,16 @@ section {
     border-radius: 0px 200px;
     margin-bottom: 30px;
 }
+
+.logo {
+  max-width: 500px;
+  /* width: 60%; */
+  height: auto;
+
+  margin-bottom: 30px;
+}
+
+
 
 footer {
   background: var( --tertiary);
@@ -180,6 +196,24 @@ padding: .5px 0 20px 0;
   width: 100%;
     height: auto;
     border-radius: 70px;
+}
+
+.services-page {
+  background-color: var(--logo);
+}
+.services-container {
+  background-color:rgb(46, 20, 3, .1);
+  padding: 30px;
+  border-radius: 30px;
+}
+.product-title {
+  padding-left: 40px;
+}
+.pricing-title {
+  padding-left: 65px;
+}
+.pricing-list {
+  padding-left: 80px;
 }
 
 .insurance-page {

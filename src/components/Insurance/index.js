@@ -16,6 +16,7 @@ export default function Insurance() {
             <a
               className="href-links"
               target="_blank"
+              rel="noreferrer"
               href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
             >
               Image by wirestock on Freepik

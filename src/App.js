@@ -4,7 +4,7 @@ import About from "./components/About";
 import SoundHealing from "./components/SoundHealing";
 import Counseling from "./components/Counseling";
 import Insurance from "./components/Insurance";
-import GiftCard from "./components/GiftCard";
+import Services from "./components/Services";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
 
@@ -19,8 +19,8 @@ export default function App() {
         <About></About>
         <SoundHealing></SoundHealing>
         <Counseling></Counseling>
+        <Services></Services>
         <Insurance></Insurance>
-        <GiftCard></GiftCard>
       <ContactForm></ContactForm>
       </main>
       <Footer></Footer>
