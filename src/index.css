@@ -12,6 +12,7 @@
   --cards: rgb(205, 196, 161, 0.5);
   --light: rgb(243, 172, 125);
   --black: rgb(46, 20, 3);
+  --green: rgb(101, 125, 58);
 
 }
 
@@ -198,6 +199,10 @@ padding: .5px 0 20px 0;
 }
 .form {
   padding: 0 50px 0 20px;
+}
+
+#selectSoundHealing, #selectCounseling {
+  background-color: var(--green);
 }
 .navActive {
   color: var(--tertiary);

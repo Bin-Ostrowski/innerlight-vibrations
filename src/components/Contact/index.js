@@ -47,7 +47,7 @@ export default function ContactForm() {
           validated={validated}
           onSubmit={handleSubmit}
         >
-          <Form.Group className="mb-4">
+          <Form.Group className="mb-4 ">
             <Form.Label htmlFor="interests">
               What are you interested in?
             </Form.Label>
@@ -74,7 +74,7 @@ export default function ContactForm() {
           </Form.Group>
 
           <Row>
-            <Col md={6}>
+            <Col md={4}>
               <Form.Group className="mb-4">
                 <Form.Label htmlFor="name">Name:</Form.Label>
                 <Form.Control
@@ -87,7 +87,23 @@ export default function ContactForm() {
                 />
               </Form.Group>
             </Col>
-            <Col md={6}>
+            <Col md={4}>
+              <Form.Group className="mb-4">
+                <Form.Label htmlFor="phone">Phone:</Form.Label>
+                <Form.Control
+                  required
+                  type="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  name="phone"
+                  placeholder="Enter Phone Number"
+                />
+                <Form.Text className="text-muted">
+                  We'll never share your number with anyone.
+                </Form.Text>
+              </Form.Group>
+            </Col>
+            <Col md={4}>
               <Form.Group className="mb-4">
                 <Form.Label htmlFor="email">Email address:</Form.Label>
                 <Form.Control
@@ -99,21 +115,21 @@ export default function ContactForm() {
                   placeholder="Enter Email"
                 />
                 <Form.Text className="text-muted">
-                  We'll never share your email with anyone else.
+                  We'll never share your email with anyone.
                 </Form.Text>
               </Form.Group>
             </Col>
           </Row>
 
           <Row>
-            <Col>
+            <Col md={4}>
               <Form.Group className="mb-4">
                 <Form.Label htmlFor="insurance">
                   What insurance do you have?
                 </Form.Label>
                 <Form.Select
                   required
-                  aria-label="Default select example"
+                  aria-label="insurance"
                   onChange={handleChange}
                   value={formData.insurance}
                   name="insurance"
@@ -129,25 +145,39 @@ export default function ContactForm() {
                 </Form.Text>
               </Form.Group>
             </Col>
-            <Col>
-            {/* // Chance to Prefered Method of Meeting 
-            telehealth or in person*/}
-
-            {/* add prefer method of contact: call, email or text */}
-
-           {/* PHone input  */}
-           
+            <Col md={4}>
               <Form.Group className="mb-4">
-                <Form.Label htmlFor="preferredTime">
-                  Preferred date of service?
+                <Form.Label htmlFor="contactMethod">
+                  Preferred Method of Contact
                 </Form.Label>
-                <Form.Control
-                  type="datetime-local"
-                  name="preferredTime"
-                  id="preferredTime"
-                  value={formData.preferredTime}
+                <Form.Select
+                  required
+                  aria-label="contact-method"
                   onChange={handleChange}
-                />
+                  value={formData.contactMethod}
+                  name="contactMethod"
+                >
+                  <option value="call">Call</option>
+                  <option value="email">Email</option>
+                  <option value="text">Text</option>
+                </Form.Select>
+              </Form.Group>
+            </Col>
+            <Col md={4}>
+              <Form.Group className="mb-4">
+                <Form.Label htmlFor="meetingMethod">
+                  Preferred Method of Meeting
+                </Form.Label>
+                <Form.Select
+                  required
+                  aria-label="meeting-method"
+                  onChange={handleChange}
+                  value={formData.meetingMethod}
+                  name="meetingMethod"
+                >
+                  <option value="inPerson">In Person</option>
+                  <option value="telehealth">Telehealth</option>
+                </Form.Select>
               </Form.Group>
             </Col>
           </Row>
@@ -166,7 +196,6 @@ export default function ContactForm() {
               Please add a comment or discribe what you are going through.
             </Form.Text>
           </Form.Group>
-
           <div className="d-grid gap-2">
             <Button type="submit" variant="light">
               Send
@@ -177,3 +206,7 @@ export default function ContactForm() {
     </section>
   );
 }
+
+
+
+//<Feedback type="invalid">Yo this is required</Feedback>
