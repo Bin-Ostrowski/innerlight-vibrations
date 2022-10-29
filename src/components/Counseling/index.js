@@ -6,7 +6,6 @@ export default function Counseling() {
     <section id="counseling">
       <Container>
         <h1 className="section-title">Counseling</h1>
-
         <Row className="cards-container">
           <Col md={4} className="cards">
             <h3>About Me</h3>
@@ -27,14 +26,8 @@ export default function Counseling() {
               <li>Strength-Based</li>
             </ul>
           </Col>
-          <Col md={4} className="cards">
-            <h3>Specialties</h3>
-            <ul>
-              <li>Anxiety</li>
-              <li>Depression</li>
-              <li>Trauma and PTSD</li>
-            </ul>
-          </Col>
+        </Row>
+        <Row className="cards-container">
           <Col md={3} className="cards">
             <h3>Issues</h3>
             <ul>
@@ -49,23 +42,11 @@ export default function Counseling() {
             </ul>
           </Col>
           <Col md={3} className="cards">
-            <h3>Mental Health</h3>
+            <h3>Specialties</h3>
             <ul>
-              <li>Mood Dissorders</li>
-            </ul>
-          </Col>
-          <Col md={3} className="cards">
-            <h3>Sexuality</h3>
-            <ul>
-              <li>Bisexual</li>
-              <li>LGTBQ+</li>
-              <li>Lesbian</li>
-            </ul>
-          </Col>
-          <Col md={3} className="cards">
-            <h3>Age</h3>
-            <ul>
-              <li>Adults</li>
+              <li>Anxiety</li>
+              <li>Depression</li>
+              <li>Trauma and PTSD</li>
             </ul>
           </Col>
           <Col md={3} className="cards">
@@ -78,7 +59,28 @@ export default function Counseling() {
               <li>Transgender Allied</li>
             </ul>
           </Col>
-          
+        </Row>
+        <Row className="cards-container">
+          <Col md={3} className="cards">
+            <h3>Mental Health</h3>
+            <ul>
+              <li>Mood Dissorders</li>
+            </ul>
+          </Col>
+          <Col md={2} className="cards">
+            <h3>Sexuality</h3>
+            <ul>
+              <li>Bisexual</li>
+              <li>LGTBQ+</li>
+              <li>Lesbian</li>
+            </ul>
+          </Col>
+          <Col md={2} className="cards">
+            <h3>Age</h3>
+            <ul>
+              <li>Adults</li>
+            </ul>
+          </Col>
           <Col md={3} className="cards">
             <h3>Modality</h3>
             <ul>

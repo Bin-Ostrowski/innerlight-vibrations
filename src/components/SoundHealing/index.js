@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Stack } from "react-bootstrap";
 import singingBowls from "../../assets/img/singing-bowls.jpg";
 
-export default function SoundHealing({ currentProject }) {
+export default function SoundHealing() {
   return (
     <section id="sound-healing" className="sound-healing">
       <Container>
@@ -38,6 +38,7 @@ export default function SoundHealing({ currentProject }) {
           </Col>
           <Col className="bowl-img-container">
             <Stack>
+              
               <img
                 src={singingBowls}
                 className="singing-bowls-img"

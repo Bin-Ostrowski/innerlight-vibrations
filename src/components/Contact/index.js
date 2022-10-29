@@ -39,7 +39,7 @@ export default function ContactForm() {
           </Col>
         </Row>
         <Form
-          action="https://formsubmit.co/bin.ostrowski@gmail.com" //porternich@gmail.com
+          action="https://formsubmit.co/porternich@gmail.com" //porternich@gmail.com
           method="POST"
           target="_blank"
           className="form"
@@ -119,7 +119,7 @@ export default function ContactForm() {
                   name="insurance"
                 >
                   <option value="no insurance">No Insurance</option>
-                  <option value="BCBS">BlueCross and BlueShield</option>
+                  <option value="BCBS">BlueCross and BlueShield/Regence</option>
                   <option value="cigna">Cigna</option>
                   <option value="pacificSource">PacificSource</option>
                   <option value="providence">Providence</option>
@@ -130,6 +130,13 @@ export default function ContactForm() {
               </Form.Group>
             </Col>
             <Col>
+            {/* // Chance to Prefered Method of Meeting 
+            telehealth or in person*/}
+
+            {/* add prefer method of contact: call, email or text */}
+
+           {/* PHone input  */}
+           
               <Form.Group className="mb-4">
                 <Form.Label htmlFor="preferredTime">
                   Preferred date of service?

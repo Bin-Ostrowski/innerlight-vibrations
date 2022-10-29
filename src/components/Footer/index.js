@@ -10,6 +10,7 @@ export default function Footer() {
           <Col xs="auto">
             <div>Robin Ostrowski, 2022</div>
           </Col>
+          <Col>phone number</Col>
         </Row>
       </Container>
     </footer>
