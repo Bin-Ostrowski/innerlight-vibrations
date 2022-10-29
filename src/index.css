@@ -49,7 +49,7 @@ color: var(--black);
 /* margin-top: -70px; */
 }
 
-.logo {
+.nav-logo {
   margin: 0 0 0 20px;
 }
 
@@ -88,16 +88,18 @@ section {
 .portrait-CTA-container {
   display: flex;
   flex-direction: column;
+
 }
 
 .CTA {
- margin: 0px auto 0px 0px;
+ /* margin: 0px auto 0px 0px; */
   background-color: var(--tertiary);
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
   color: var(--black);
   text-decoration: none;
-  margin:-100px 0;
+  text-align: center;
+  /* margin: 0 -20px */
 }
 
 .CTA:hover {
@@ -123,6 +125,9 @@ section {
   margin-bottom: 30px;
 }
 
+.about-container {
+  padding-left: 30px;
+}
 
 
 footer {

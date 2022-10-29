@@ -2,25 +2,32 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import portrait from "../../assets/img/portrait.jpg";
 import logo from "../../assets/img/logo.png";
+import logoCropped from "../../assets/img/logo-cropped.png";
 
 export default function About() {
   return (
     <section id="about" className ="about-section">
       <Container className="flex-row">
         <Row className="flex-row">
-          <Col className="md portrait-CTA-container">
-            <img className="logo" src={logo} alt="logo" />
+          <Col md={4} className="md portrait-CTA-container">
+            <Row>
+
+            <img className="logo" src={logoCropped} alt="logo" />
             {/* <img
               className="portrait"
               src={portrait}
               style={{ width: "20" }}
               alt="portrait"
             /> */}
+            </Row>
+            <Row>
+
             <a className="CTA" href="#contact">
               Request a free 15-minute consult!
             </a>
+            </Row>
           </Col>
-          <Col className="md">
+          <Col md={8}className="about-container">
             <h1 className="section-title">
               YOU DESERVE TO FEEL EMPOWERED IN YOUR OWN LIFE
             </h1>

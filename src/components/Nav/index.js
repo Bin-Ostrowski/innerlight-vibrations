@@ -8,9 +8,9 @@ export default function Nav() {
       <Container>
         <Row className="full-width">
           <Col md={4}>
-            <h1 className="href-links logo">
+            <h1 className="href-links nav-logo">
               <a href="/" className="href-links">
-                Innerlight Vibrations
+                Inner Light Vibrations
               </a>
             </h1>
           </Col>
