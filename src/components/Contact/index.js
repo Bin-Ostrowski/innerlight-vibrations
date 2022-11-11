@@ -32,7 +32,7 @@ export default function ContactForm() {
 
   return (
     <section id="contact" className="section">
-      <Container>
+      <Container fluid>
         <Row className="section-title">
           <Col>
             <h1>Contact Me</h1>

@@ -25,7 +25,7 @@ const services = [
 export default function Services() {
   return (
     <section id="services" className="services-page">
-      <Container>
+      <Container fluid>
         <Row>
           <Col className="section-title">
             <h1>Services</h1>

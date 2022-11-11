@@ -5,21 +5,21 @@ import singingBowls from "../../assets/img/singing-bowls.jpg";
 export default function SoundHealing() {
   return (
     <section id="sound-healing" className="sound-healing">
-      <Container>
+      <Container fluid>
         <Row className="flex-row VST-uses-container">
           <Col md={9}>
             <h1 className="sound-title">
               What Vibration Sound Theraphy (VST) is Used For:
             </h1>
             <ul className="list-text">
-              <li>Quickly introducing deep meditative states</li>
-              <li>Reducing depression and sleep issues</li>
-              <li>Easing blockages and tension</li>
-              <li>Entraning the brain</li>
-              <li>Reducing stress</li>
-              <li>Raising focus and gaining a clear mind</li>
-              <li>Calming the mind, body, and spirit in conjustion</li>
-              <li>Boosting Creativity</li>
+              <li>Quickly introducing deep meditative states.</li>
+              <li>Reducing depression and sleep issues.</li>
+              <li>Easing blockages and tension.</li>
+              <li>Entraning the brain.</li>
+              <li>Reducing stress.</li>
+              <li>Raising focus and gaining a clear mind.</li>
+              <li>Calming the mind, body, and spirit in conjustion.</li>
+              <li>Boosting Creativity.</li>
             </ul>
             <div className="sub-container">
               <h3 className="section-title">
@@ -45,7 +45,7 @@ export default function SoundHealing() {
                 alt="singing-bowls"
               />
               <a
-                className="href-links"
+                className="href-links photo-credit"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"

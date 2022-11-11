@@ -7,7 +7,7 @@ import logoCropped from "../../assets/img/logo-cropped.png";
 export default function About() {
   return (
     <section id="about" className ="about-section">
-      <Container className="flex-row">
+      <Container fluid className="flex-row">
         <Row className="flex-row">
           <Col md={4} className="md portrait-CTA-container">
             <Row>

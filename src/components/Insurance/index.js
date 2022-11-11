@@ -5,7 +5,7 @@ import singingBowl from "../../assets/img/singing-bowl-crop.jpg";
 export default function Insurance() {
   return (
     <section id="insurance" className="insurance-page">
-      <Container>
+      <Container fluid>
         <Row>
           <Col md={5}>
             <img
@@ -14,7 +14,7 @@ export default function Insurance() {
               alt="singing-bowls"
             />
             <a
-              className="href-links"
+              className="href-links photo-credit"
               target="_blank"
               rel="noreferrer"
               href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"

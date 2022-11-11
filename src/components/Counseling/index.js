@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Counseling() {
   return (
     <section id="counseling">
-      <Container>
+      <Container fluid>
         <h1 className="section-title">Counseling</h1>
         <Row className="cards-container">
           <Col md={4} className="cards">
