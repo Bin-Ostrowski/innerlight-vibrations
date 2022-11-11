@@ -40,7 +40,7 @@ export default function SoundHealing() {
         
               <img
                 src={singingBowls}
-                className="singing-bowls-img"
+                className="singing-bowls-img d-block mx-auto"
                 alt="singing-bowls"
               />
               <a

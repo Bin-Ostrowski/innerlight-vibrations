@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import singingBowl from "../../assets/img/singing-bowl-crop.jpg";
+import holdingBowl from "../../assets/img/holding-bowl.jpg";
 
 export default function Insurance() {
   return (
@@ -9,22 +9,22 @@ export default function Insurance() {
         <Row>
           <Col md={5}>
             <img
-              src={singingBowl}
-              className="singing-bowls-img"
-              alt="singing-bowls"
+              src={holdingBowl}
+              className="singing-bowls-img d-block mx-auto"
+              alt="holding-bowl"
             />
             <a
               className="href-links photo-credit"
               target="_blank"
               rel="noreferrer"
-              href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
+              href="https://www.pexels.com/photo/close-up-shot-of-a-person-using-a-singing-bowl-7113296/"
             >
-              Image by wirestock on Freepik
+              Photo by EKATERINA BOLOVTSOVA:
             </a>{" "}
           </Col>
-          <Col md={7}>
+          <Col md={7} className="insurance-text">
             <h1 className="section-title">Insurance We Accept:</h1>
-            <ul className="list-text">
+            <ul className="list-text insurances">
               <li>BlueCross and BlueShield</li>
               <li>Cigna and Evernorth</li>
               <li>PacificSource</li>

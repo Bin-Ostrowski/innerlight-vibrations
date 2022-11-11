@@ -261,9 +261,16 @@ section {
 /* INSURANCE */
 
 .insurance-page {
-  background-color: var(--cards);
+  background-color: var(--tertiary);
 }
 
+.insurances {
+  color: var(--black)
+}
+
+.insurance-text {
+padding-left: 50px
+}
 
 /* CONTACT */
 .form {
@@ -286,19 +293,19 @@ footer {
   flex-direction: column
 }
 
-/* MOBILE SCREEN */
-@media screen and (max-width: 480px) {
-
+/* LAPTOP SCREEN  */
+@media screen and (max-width: 1024px) {
+  
+}
+/* small laptop SCREEN  */
+@media screen and (max-width: 990px) {
+  .photo-credit {
+    padding: 0;
+  }
 }
 
 /* TABLET SCREEN  */
 @media screen and (max-width: 768px) {
-  .photo-credit {
-    font-size: 0.8rem;
-    color: var(--photo-credit);
-    margin-top: -20px;
-    padding-left: 60px;
-  }
 
   .singing-bowls-img {
     width: 70%;
@@ -310,13 +317,15 @@ footer {
   padding-top: 30px
 }
 
+.photo-credit {
+  font-size: 0.8rem;
+  color: var(--cards);
+  margin-top: -20px;
+  padding-left: 110px;
 }
-/* small laptop SCREEN  */
-@media screen and (max-width: 990px) {
 
 }
-
-/* LAPTOP SCREEN  */
-@media screen and (max-width: 1024px) {
+/* MOBILE SCREEN */
+@media screen and (max-width: 480px) {
 
 }
