@@ -324,6 +324,9 @@ footer {
   padding-left: 110px;
 }
 
+.insurance-text {
+  padding-bottom: 40px;
+}
 }
 /* MOBILE SCREEN */
 @media screen and (max-width: 480px) {

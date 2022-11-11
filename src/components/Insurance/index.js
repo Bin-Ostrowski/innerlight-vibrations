@@ -7,7 +7,7 @@ export default function Insurance() {
     <section id="insurance" className="insurance-page">
       <Container fluid>
         <Row>
-          <Col md={5}>
+          <Col md={{span: 5, order:'first'}}>
             <img
               src={holdingBowl}
               className="singing-bowls-img d-block mx-auto"
@@ -22,7 +22,7 @@ export default function Insurance() {
               Photo by EKATERINA BOLOVTSOVA:
             </a>{" "}
           </Col>
-          <Col md={7} className="insurance-text">
+          <Col sm={{ order: 'first' }} className="insurance-text">
             <h1 className="section-title">Insurance We Accept:</h1>
             <ul className="list-text insurances">
               <li>BlueCross and BlueShield</li>
