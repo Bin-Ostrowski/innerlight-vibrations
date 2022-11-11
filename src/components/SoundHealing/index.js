@@ -6,8 +6,8 @@ export default function SoundHealing() {
   return (
     <section id="sound-healing" className="sound-healing">
       <Container fluid>
-        <Row className="flex-row VST-uses-container">
-          <Col md={9}>
+        <Row className="flex-row VST-uses-container justify-content-md-center">
+          <Col md={8}>
             <h1 className="sound-title">
               What Vibration Sound Theraphy (VST) is Used For:
             </h1>
@@ -36,23 +36,22 @@ export default function SoundHealing() {
               </a>
             </div>
           </Col>
-          <Col className="bowl-img-container">
-            <Stack>
-              
+          <Col md={4} className="bowl-img-container">
+        
               <img
                 src={singingBowls}
                 className="singing-bowls-img"
                 alt="singing-bowls"
               />
-              <a
+              {/* <a
                 className="href-links photo-credit"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
               >
                 Image by wirestock on Freepik
-              </a>{" "}
-            </Stack>
+              </a>{" "} */}
+            
           </Col>
         </Row>
         <Row>

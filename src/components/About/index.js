@@ -6,28 +6,28 @@ import logoCropped from "../../assets/img/logo-cropped.png";
 
 export default function About() {
   return (
-    <section id="about" className ="about-section">
-      <Container fluid className="flex-row">
-        <Row className="flex-row">
-          <Col md={4} className="md portrait-CTA-container">
-            <Row>
-
-            <img className="logo" src={logoCropped} alt="logo" />
-            {/* <img
+    <section id="about" className="about-section">
+      <Container fluid>
+        <Row>
+          <Col md={4} className="portrait-CTA-container">
+            <Row className="justify-content-center">
+            
+                <img className="logo" src={logoCropped} alt="logo" />
+                {/* <img
               className="portrait"
               src={portrait}
               style={{ width: "20" }}
               alt="portrait"
             /> */}
+         
             </Row>
             <Row>
-
-            <a className="CTA" href="#contact">
-              Request a free 15-minute consult!
-            </a>
+              <a className="CTA" href="#contact">
+                Request a free 15-minute consult!
+              </a>
             </Row>
           </Col>
-          <Col md={8}className="about-container">
+          <Col md={8} className="about-container">
             <h1 className="section-title">
               YOU DESERVE TO FEEL EMPOWERED IN YOUR OWN LIFE
             </h1>

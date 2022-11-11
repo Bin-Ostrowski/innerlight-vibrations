@@ -217,18 +217,22 @@ section {
   height: auto;
   border-radius: 70px;
 }
+.bowl-img-container {
+
+}
 
 /* COUNSELING */
 
 .cards-container {
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 .cards {
   background-color: var(--cards);
   margin: 30px 0 30px 30px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   border-radius: 0 40px;
 }
+
 
 /* SERVICES */
 
@@ -293,9 +297,18 @@ footer {
     padding-left: 60px;
   }
 
+  .singing-bowls-img {
+    width: 70%;
+  height: auto;
+  border-radius: 70px;
+}
+  
+
 }
 /* small laptop SCREEN  */
-@media screen and (max-width: 990px) {}
+@media screen and (max-width: 990px) {
+
+}
 
 /* LAPTOP SCREEN  */
 @media screen and (max-width: 1024px) {
