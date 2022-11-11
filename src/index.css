@@ -287,7 +287,20 @@ footer {
 }
 
 .footer-address {
-  flex-direction: column
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.created-by {
+  font-size: small;
+  text-align: center;
+}
+
+.logo-footer {
+  max-width: 250px;
+  /* width: 60%; */
+  height: auto;
+  margin: 10px;
 }
 
 /* LAPTOP SCREEN  */

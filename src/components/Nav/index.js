@@ -9,7 +9,7 @@ export default function Nav() {
         <Row className="full-width">
           <Col md={4}>
             <h1 className="href-links nav-logo">
-              <a href="/" className="href-links">
+              <a href="#about" className="href-links">
                 Inner Light Vibrations
               </a>
             </h1>
