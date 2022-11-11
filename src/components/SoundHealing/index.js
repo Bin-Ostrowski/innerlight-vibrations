@@ -43,14 +43,14 @@ export default function SoundHealing() {
                 className="singing-bowls-img"
                 alt="singing-bowls"
               />
-              {/* <a
+              <a
                 className="href-links photo-credit"
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.freepik.com/free-photo/singing-bowl-placed-nature-with-river-background_31023241.htm#query=singing%20bowls&position=0&from_view=search"
+                href="https://www.pexels.com/photo/woman-holding-a-musical-instruments-3543862/"
               >
-                Image by wirestock on Freepik
-              </a>{" "} */}
+                Photo by Magicbowls
+              </a>{" "}
             
           </Col>
         </Row>

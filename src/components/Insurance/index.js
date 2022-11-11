@@ -22,7 +22,7 @@ export default function Insurance() {
               Image by wirestock on Freepik
             </a>{" "}
           </Col>
-          <Col>
+          <Col md={7}>
             <h1 className="section-title">Insurance We Accept:</h1>
             <ul className="list-text">
               <li>BlueCross and BlueShield</li>

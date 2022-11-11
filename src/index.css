@@ -14,6 +14,7 @@
   --black: rgb(46, 20, 3);
   --green: rgb(101, 125, 58);
   --logo: rgb(245, 240, 235);
+  --photo-credit: rgb(231, 228, 225);
 }
 
 html,
@@ -79,7 +80,7 @@ a:hover {
 
 .photo-credit {
   font-size: 0.8rem;
-  color: var(--primary);
+  color: var(--cards);
   margin-top: -20px;
   padding-left: 60px;
 }
@@ -217,15 +218,10 @@ section {
   height: auto;
   border-radius: 70px;
 }
-.bowl-img-container {
 
-}
 
 /* COUNSELING */
 
-.cards-container {
-  /* margin-right: 30px; */
-}
 .cards {
   background-color: var(--cards);
   margin: 30px 0 30px 30px;
@@ -251,8 +247,15 @@ section {
 .pricing-title {
   padding-left: 65px;
 }
+.product-list{
+  padding-bottom: 30px;
+}
 .pricing-list {
   padding-left: 80px;
+}
+
+.crystal-bowl-img-container {
+  /* padding-top: 30px */
 }
 
 /* INSURANCE */
@@ -292,7 +295,7 @@ footer {
 @media screen and (max-width: 768px) {
   .photo-credit {
     font-size: 0.8rem;
-    color: var(--primary);
+    color: var(--photo-credit);
     margin-top: -20px;
     padding-left: 60px;
   }
@@ -303,6 +306,9 @@ footer {
   border-radius: 70px;
 }
   
+.crystal-bowl-img-container {
+  padding-top: 30px
+}
 
 }
 /* small laptop SCREEN  */

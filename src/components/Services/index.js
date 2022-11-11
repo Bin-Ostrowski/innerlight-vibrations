@@ -1,4 +1,5 @@
 import React from "react";
+import crystalBowls from "../../assets/img/crystal-bowls.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 const services = [
   {
@@ -31,26 +32,44 @@ export default function Services() {
             <h1>Services</h1>
           </Col>
         </Row>
-
-        <Row>
-          <Col xs={6} className="product-title">
-            <h3>Product</h3>
-          </Col>
-          <Col xs={6} className="pricing-title">
-            <h3>Price</h3>
-          </Col>
-        </Row>
-        <Row className="services-container">
-          {services.map((service, i) => (
-            <Row key={i}>
-              <Col xs={6}>
-                <p>{service.product}</p>
+        <Row className="justify-content-md-center">
+          <Col>
+            <Row>
+              <Col xs={6} className="product-title">
+                <h3>Product</h3>
               </Col>
-              <Col xs={6} className="pricing-list">
-                <p>{service.price}</p>
+              <Col xs={6} className="pricing-title">
+                <h3>Price</h3>
               </Col>
             </Row>
-          ))}
+            <Row className="services-container">
+              {services.map((service, i) => (
+                <Row key={i}>
+                  <Col xs={6} className="product-list">
+                    <p>{service.product}</p>
+                  </Col>
+                  <Col xs={6} className="pricing-list">
+                    <p>{service.price}</p>
+                  </Col>
+                </Row>
+              ))}
+            </Row>
+          </Col>
+          <Col xs={12} md={4} lg={3} className="crystal-bowl-img-container">
+            <img
+              src={crystalBowls}
+              className="singing-bowls-img d-block mx-auto"
+              alt="crystal-bowls"
+            />
+            <a
+              className="href-links photo-credit"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.pexels.com/photo/woman-with-roll-in-hand-and-glass-bowls-on-carpet-13543280/"
+            >
+              Photo by Mathilde Langevin
+            </a>{" "}
+          </Col>
         </Row>
       </Container>
     </section>
