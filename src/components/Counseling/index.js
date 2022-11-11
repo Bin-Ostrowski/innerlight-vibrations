@@ -6,6 +6,13 @@ export default function Counseling() {
     <section id="counseling">
       <Container fluid>
         <h1 className="section-title">Counseling</h1>
+        <Row>
+          <Col md={4}>
+            <a className="CTA counseling-CTA" href="#contact">
+              Request a free 15-minute consult!
+            </a>
+          </Col>
+        </Row>
         <Row className="cards-container">
           <Col md={4} className="cards">
             <h3>About Me</h3>
