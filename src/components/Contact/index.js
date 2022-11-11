@@ -181,6 +181,8 @@ export default function ContactForm() {
               </Form.Group>
             </Col>
           </Row>
+          <Row>
+
           <Form.Group className="mb-3">
             <Form.Label htmlFor="message">Message:</Form.Label>
             <Form.Control
@@ -196,11 +198,15 @@ export default function ContactForm() {
               Please add a comment or discribe what you are going through.
             </Form.Text>
           </Form.Group>
-          <div className="d-grid gap-2">
+         
+          </Row>
+          <Row className="justify-content-center">
+          <Col md={4} className="d-grid gap-2">
             <Button type="submit" variant="light">
               Send
             </Button>
-          </div>
+          </Col>
+          </Row>
         </Form>
       </Container>
     </section>
