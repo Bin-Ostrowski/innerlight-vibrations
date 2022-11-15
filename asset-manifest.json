@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/innerlight-vibrations/static/css/main.4da073b2.css",
-    "main.js": "/innerlight-vibrations/static/js/main.fabef604.js",
-    "static/js/787.5552b612.chunk.js": "/innerlight-vibrations/static/js/787.5552b612.chunk.js",
-    "static/media/crystal-bowls.jpg": "/innerlight-vibrations/static/media/crystal-bowls.4829793e8c3698040729.jpg",
-    "static/media/singing-bowls.jpg": "/innerlight-vibrations/static/media/singing-bowls.4c2652bf1e6c832d981d.jpg",
-    "static/media/holding-bowl.jpg": "/innerlight-vibrations/static/media/holding-bowl.b1a6b2745c46ebd882f9.jpg",
-    "static/media/logo-footer.png": "/innerlight-vibrations/static/media/logo-footer.246801181726693a7235.png",
-    "static/media/logo-cropped.png": "/innerlight-vibrations/static/media/logo-cropped.455a62fc5b89034b75e4.png",
-    "static/media/logo.png": "/innerlight-vibrations/static/media/logo.3e0b6639df7bbd1d8ea0.png",
-    "index.html": "/innerlight-vibrations/index.html",
-    "main.4da073b2.css.map": "/innerlight-vibrations/static/css/main.4da073b2.css.map",
-    "main.fabef604.js.map": "/innerlight-vibrations/static/js/main.fabef604.js.map",
-    "787.5552b612.chunk.js.map": "/innerlight-vibrations/static/js/787.5552b612.chunk.js.map"
+    "main.css": "/static/css/main.4da073b2.css",
+    "main.js": "/static/js/main.f8b86872.js",
+    "static/js/787.5552b612.chunk.js": "/static/js/787.5552b612.chunk.js",
+    "static/media/crystal-bowls.jpg": "/static/media/crystal-bowls.4829793e8c3698040729.jpg",
+    "static/media/singing-bowls.jpg": "/static/media/singing-bowls.4c2652bf1e6c832d981d.jpg",
+    "static/media/holding-bowl.jpg": "/static/media/holding-bowl.b1a6b2745c46ebd882f9.jpg",
+    "static/media/logo-footer.png": "/static/media/logo-footer.246801181726693a7235.png",
+    "static/media/logo-cropped.png": "/static/media/logo-cropped.455a62fc5b89034b75e4.png",
+    "static/media/logo.png": "/static/media/logo.3e0b6639df7bbd1d8ea0.png",
+    "index.html": "/index.html",
+    "main.4da073b2.css.map": "/static/css/main.4da073b2.css.map",
+    "main.f8b86872.js.map": "/static/js/main.f8b86872.js.map",
+    "787.5552b612.chunk.js.map": "/static/js/787.5552b612.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4da073b2.css",
-    "static/js/main.fabef604.js"
+    "static/js/main.f8b86872.js"
   ]
 }
