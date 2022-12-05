@@ -19,8 +19,8 @@ const services = [
     price: "*Varies",
   },
   {
-    product: "",
-    price: "* Price will vary if insurance is accepted",
+    product: "* Price will vary if insurance is accepted",
+    price: "",
   },
 ];
 export default function Services() {
@@ -33,7 +33,7 @@ export default function Services() {
           </Col>
         </Row>
         <Row className="justify-content-md-center">
-          <Col>
+          <Col lg={8}>
             <Row>
               <Col xs={6} className="product-title">
                 <h3>Product</h3>
@@ -55,7 +55,7 @@ export default function Services() {
               ))}
             </Row>
           </Col>
-          <Col xs={12} md={4} lg={3} className="crystal-bowl-img-container">
+          <Col xs={12} md={5} lg={3} className="crystal-bowl-img-container">
             <img
               src={crystalBowls}
               className="singing-bowls-img d-block mx-auto"
