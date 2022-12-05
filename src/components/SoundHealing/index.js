@@ -9,7 +9,7 @@ export default function SoundHealing() {
         <Row className="flex-row VST-uses-container justify-content-md-center">
           <Col md={8}>
             <h1 className="sound-title">
-              What Vibration Sound Theraphy (VST) is Used For:
+              What Vibration Sound Therapy (VST) is Used For:
             </h1>
             <ul className="list-text">
               <li>Quickly introducing deep meditative states.</li>

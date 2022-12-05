@@ -29,7 +29,8 @@ export default function Insurance() {
               <li>Cigna and Evernorth</li>
               <li>PacificSource</li>
               <li>Providence</li>
-              <li>Out of Pocket or Private Pay</li>
+              <li>Private Pay</li>
+              <li>Sliding Scale Available</li>
             </ul>
           </Col>
         </Row>

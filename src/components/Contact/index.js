@@ -195,7 +195,7 @@ export default function ContactForm() {
               required
             />
             <Form.Text className="text-muted">
-              Please add a comment or discribe what you are going through.
+              Please add a comment or describe what you are going through.
             </Form.Text>
           </Form.Group>
          

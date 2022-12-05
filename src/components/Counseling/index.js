@@ -17,17 +17,17 @@ export default function Counseling() {
           <Col md={4} className="cards">
             <h3>About Me</h3>
             <ul>
-              <li>Licensed Profectional Counselor, LPC, MA, VSTCP</li>
+              <li>Licensed Professional Counselor, MA, LPC, VSTCP</li>
               <li>Offers Online Therapy</li>
               <li>Years in Practice: 6 Years</li>
               <li>License: Oregon / C5248</li>
             </ul>
           </Col>
           <Col md={4} className="cards">
-            <h3>Types of Theraphy</h3>
+            <h3>Types of Therapy</h3>
             <ul>
               <li>Compassion Focused</li>
-              <li>Mindfulness-Based (MBCT)</li>
+              <li>Mindfulness-Based Stress Reduction (MBSR)</li>
               <li>Solution Focused Brief (SFBT)</li>
               <li>Somatic</li>
               <li>Strength-Based</li>
@@ -39,13 +39,12 @@ export default function Counseling() {
             <h3>Issues</h3>
             <ul>
               <li>Coping Skills</li>
-              <li>Life Coaching</li>
               <li>Life Transitions</li>
-              <li>Peer Relationships</li>
               <li>Relationship Issues</li>
               <li>Self Esteem</li>
               <li>Spirituality</li>
-              <li>Stress</li>
+              <li>Stress Management</li>
+              <li>Communication</li>
             </ul>
           </Col>
           <Col md={3} className="cards">
@@ -54,6 +53,7 @@ export default function Counseling() {
               <li>Anxiety</li>
               <li>Depression</li>
               <li>Trauma and PTSD</li>
+              <li>ADHD</li>
             </ul>
           </Col>
           <Col md={3} className="cards">
@@ -68,20 +68,20 @@ export default function Counseling() {
           </Col>
         </Row>
         <Row className="cards-container">
-          <Col md={3} className="cards">
+          {/* <Col md={3} className="cards">
             <h3>Mental Health</h3>
             <ul>
               <li>Mood Dissorders</li>
             </ul>
-          </Col>
-          <Col md={2} className="cards">
+          </Col> */}
+          {/* <Col md={2} className="cards">
             <h3>Sexuality</h3>
             <ul>
               <li>Bisexual</li>
               <li>LGTBQ+</li>
               <li>Lesbian</li>
             </ul>
-          </Col>
+          </Col> */}
           <Col md={2} className="cards">
             <h3>Age</h3>
             <ul>
