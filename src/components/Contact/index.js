@@ -35,7 +35,7 @@ export default function ContactForm() {
       <Container fluid>
         <Row className="section-title">
           <Col>
-            <h1>Contact Me</h1>
+            <h1>Contact Nichole</h1>
           </Col>
         </Row>
         <Form
@@ -182,37 +182,31 @@ export default function ContactForm() {
             </Col>
           </Row>
           <Row>
-
-          <Form.Group className="mb-3">
-            <Form.Label htmlFor="message">Message:</Form.Label>
-            <Form.Control
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              rows="5"
-              type="message"
-              placeholder="Enter Message"
-              required
-            />
-            <Form.Text className="text-muted">
-              Please add a comment or describe what you are going through.
-            </Form.Text>
-          </Form.Group>
-         
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="message">Message:</Form.Label>
+              <Form.Control
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                rows="5"
+                type="message"
+                placeholder="Enter Message"
+                required
+              />
+              <Form.Text className="text-muted">
+                Please add a comment or describe what you are going through.
+              </Form.Text>
+            </Form.Group>
           </Row>
           <Row className="justify-content-center">
-          <Col md={4} className="d-grid gap-2">
-            <Button type="submit" variant="light">
-              Send
-            </Button>
-          </Col>
+            <Col md={4} className="d-grid gap-2">
+              <Button type="submit" variant="light">
+                Send
+              </Button>
+            </Col>
           </Row>
         </Form>
       </Container>
     </section>
   );
 }
-
-
-
-//<Feedback type="invalid">Yo this is required</Feedback>

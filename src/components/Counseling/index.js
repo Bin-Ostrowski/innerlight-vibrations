@@ -9,7 +9,7 @@ export default function Counseling() {
 
         <Row className="cards-container, justify-content-md-center">
           <Col md={4} className="cards">
-            <h3>About Me</h3>
+            <h3>About Nichole</h3>
             <ul>
               <li>Licensed Professional Counselor, MA, LPC, VSTCP</li>
               <li>Offers Online Therapy</li>

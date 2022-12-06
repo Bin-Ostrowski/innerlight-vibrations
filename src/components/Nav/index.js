@@ -28,16 +28,24 @@ export default function Nav() {
                   </a>
                 </li>
                 <li className="nav-links">
-                  <a className="href-links" href="#counseling">Counseling</a>
+                  <a className="href-links" href="#counseling">
+                    Counseling
+                  </a>
                 </li>
                 <li className="nav-links">
-                  <a className="href-links" href="#services">Services</a>
+                  <a className="href-links" href="#services">
+                    Services
+                  </a>
                 </li>
                 <li className="nav-links">
-                  <a className="href-links" href="#insurance">Insurance</a>
+                  <a className="href-links" href="#insurance">
+                    Insurance
+                  </a>
                 </li>
                 <li className="nav-links">
-                  <a className="contact-btn" href="#contact">Contact</a>
+                  <a className="contact-btn" href="#contact">
+                    Contact
+                  </a>
                 </li>
               </ul>
             </nav>

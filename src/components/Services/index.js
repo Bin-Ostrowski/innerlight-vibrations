@@ -18,10 +18,6 @@ const services = [
     product: "60 Minute Mind-Body Counseling",
     price: "*Varies",
   },
-  {
-    product: "* Price will vary if insurance is accepted",
-    price: "",
-  },
 ];
 export default function Services() {
   return (
@@ -32,8 +28,8 @@ export default function Services() {
             <h1>Services</h1>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
-          <Col lg={8}>
+        <Row>
+          <Col xs={12} md={7} lg={8}>
             <Row>
               <Col xs={6} className="product-title">
                 <h3>Product</h3>
@@ -53,6 +49,7 @@ export default function Services() {
                   </Col>
                 </Row>
               ))}
+              <p>* Price will vary if insurance is accepted</p>
             </Row>
           </Col>
           <Col xs={12} md={5} lg={3} className="crystal-bowl-img-container">
@@ -68,7 +65,7 @@ export default function Services() {
               href="https://www.pexels.com/photo/woman-with-roll-in-hand-and-glass-bowls-on-carpet-13543280/"
             >
               Photo by Mathilde Langevin
-            </a>{" "}
+            </a>
           </Col>
         </Row>
       </Container>
