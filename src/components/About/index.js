@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="about-section">
       <Container fluid>
         <Row>
-          <Col md={4} className="portrait-CTA-container">
+          <Col md={5} className="portrait-CTA-container">
             <Row className="justify-content-center">
             
                 <img className="logo" src={logoCropped} alt="logo" />
@@ -21,13 +21,13 @@ export default function About() {
             /> */}
          
             </Row>
-            <Row>
+            <Row className="CTA-container">
               <a className="CTA" href="#contact">
                 Request a free 15-minute consult!
               </a>
             </Row>
           </Col>
-          <Col md={8} className="about-container">
+          <Col md={7} className="about-container">
             <h1 className="section-title">
               YOU DESERVE TO FEEL EMPOWERED IN YOUR OWN LIFE
             </h1>

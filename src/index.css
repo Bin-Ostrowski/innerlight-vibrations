@@ -82,7 +82,6 @@ a:hover {
   font-size: 0.8rem;
   color: var(--cards);
   margin-top: -20px;
-  padding-left: 60px;
 }
 
 /* HEADER */
@@ -91,13 +90,11 @@ header {
   background-color: var(--primary);
   padding: 10px 0;
   border-bottom: 1px solid var(--black);
-  position: sticky;
-  top: 0;
-  z-index: 9999;
 }
 
 .nav-links {
   padding: 10px 20px 0 0;
+  padding: 5px;
 }
 
 .nav-logo {
@@ -120,6 +117,7 @@ header {
   padding: 5px 10px 5px 10px;
   color: var(--black);
   text-decoration: none;
+  text-align: center;
 }
 
 .contact-btn:hover {
@@ -158,10 +156,17 @@ section {
   flex-direction: column;
 }
 
+.CTA-container {
+  background-size: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .CTA {
   background-color: var(--tertiary);
   border-radius: 20px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 15px;
   color: var(--black);
   text-decoration: none;
   text-align: center;
@@ -205,6 +210,9 @@ section {
   border-bottom: 1px solid var(--black);
 }
 
+.VST-uses-list {
+padding: 0 0 0 40px;
+}
 .sub-container {
   background-color: var(--cards);
   border-radius: 0px 70px;
@@ -225,12 +233,8 @@ section {
 .cards {
   background-color: var(--cards);
   margin: 30px 0 30px 30px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 20px;
   border-radius: 0 40px;
-}
-
-.counseling-CTA {
-  margin: 0 0 0 20px;
 }
 
 /* SERVICES */
@@ -242,13 +246,14 @@ section {
 .services-container {
   background-color: rgb(46, 20, 3, 0.1);
   padding: 30px;
+  margin: 0 50px 0 0;
   border-radius: 30px;
 }
 .product-title {
   padding-left: 40px;
 }
 .pricing-title {
-  padding-left: 65px;
+  padding-left: 30px;
 }
 .product-list{
   padding-bottom: 30px;
@@ -256,6 +261,11 @@ section {
 .pricing-list {
   padding-left: 80px;
 }
+
+/* .crystal-bowl-img-container {
+  margin: 0 0 0 100px;
+} */
+
 
 
 /* INSURANCE */
@@ -269,12 +279,12 @@ section {
 }
 
 .insurance-text {
-padding-left: 50px
+padding-left: 200px
 }
 
 /* CONTACT */
 .form {
-  padding: 0 50px 0 20px;
+  padding: 0 20px 0 20px;
 }
 
 #selectSoundHealing,
@@ -306,49 +316,195 @@ footer {
   margin: 10px;
 }
 
-/* LAPTOP SCREEN  */
-@media screen and (max-width: 1024px) {
+/* Large LAPTOP SCREEN  */
+@media only screen 
+and (min-width : 1824px) {
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+   .about-section {
+    padding: 100px 20px 200px 20px;
+  border-bottom: 1px solid var(--black);
+  }
+
+  .nav-container {
+    margin: 0 10px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
   
-}
-/* small laptop SCREEN  */
-@media screen and (max-width: 990px) {
-  .photo-credit {
-    padding: 0;
   }
 }
 
-/* TABLET SCREEN  */
-@media screen and (max-width: 768px) {
 
-  .singing-bowls-img {
-    width: 70%;
-  height: auto;
-  border-radius: 70px;
-}
+/* small laptop SCREEN  */
+@media only screen 
+and (min-width : 1224px) and (max-width: 1823px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .photo-credit {
+    padding: 0;
+  }
+
+  .about-section {
+    padding: 100px 20px 200px 20px;
+  border-bottom: 1px solid var(--black);
+  }
+
+  .nav-container {
+    margin: 0 0 0 -32px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
   
+  }
+}
+
+
+/* TABLET SCREEN  */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px){
+  
+header {
+  background-color: var(--primary);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--black);
+  position: sticky;
+   top: 0;
+  z-index: 9999;
+}
+
+.sub-container {
+  padding: 0.5px 20px 20px 20px;
+}
+.services-container {
+  margin: 0;
+}
+.pricing-title {
+  padding-left: 50px;
+}
+
 .crystal-bowl-img-container {
-  padding-top: 30px
+  padding: 30px 10px 0 0px; 
 }
 
 .photo-credit {
   font-size: 0.8rem;
   color: var(--cards);
   margin-top: -20px;
-  padding-left: 110px;
+  padding-left: 10px;
 }
 
 .cards {
-  background-color: var(--cards);
   margin: 20px 10px;
-  padding: 10px 10px 10px 10px;
-  border-radius: 0 40px;
 }
 
 .insurance-text {
   padding-bottom: 40px;
 }
 }
-/* MOBILE SCREEN */
-@media screen and (max-width: 480px) {
 
+/* MOBILE SCREEN */
+@media only screen and (min-width: 320px)  and (max-width : 767px) {
+ 
+header {
+  background-color: var(--primary);
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid var(--black);
+  text-align: center;
+}
+
+.nav-container {
+  margin: 0 0 0 -32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+  
+  .nav-links {
+    padding: 5px 7px 5px 7px;
+  }
+  
+  .nav-logo {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  section {
+    padding: 30px 10px 50px 10px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .photo-credit {
+    padding: 60px;
+    font-size: x-small;
+  }
+
+  .about-container {
+    padding-left: 12px;
+  }
+
+  .VST-uses-container {
+    padding: 0;
+  }
+  .sub-container {
+    background-color: var(--cards);
+    border-radius: 0px 70px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 0.5px 20px 20px 20px;
+  }
+
+  .VST-btn {
+    margin-top: 20px;
+  }
+
+  .singing-bowls-img {
+    max-width: 70%;
+  }
+  
+  .cards {
+   max-width: 90%;
+  }
+
+  .pricing-title {
+    padding-left: 55px;
+  }
+  .services-container {
+    margin: 0;
+  }
+  .crystal-bowl-img-container {
+    padding: 30px; 
+  }
+
+  .insurance-text {
+    padding: 0;
+  }
+
+  .list-text {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .holding-bowl {
+padding: 30px 0 0 0;
+  }
+  
 }
