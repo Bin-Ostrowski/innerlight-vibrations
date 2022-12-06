@@ -9,7 +9,7 @@ export default function SoundHealing() {
         <Row className="VST-uses-container justify-content-md-center">
           <Col md={8}>
             <Row>
-            <h1 className="sound-title">
+            <h1 className="section-title">
               What Vibration Sound Therapy (VST) is Used For:
             </h1>
             <ul className="list-text VST-uses-list">
