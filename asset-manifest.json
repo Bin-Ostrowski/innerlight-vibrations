@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4da073b2.css",
-    "main.js": "/static/js/main.f8b86872.js",
+    "main.css": "/static/css/main.2854d16b.css",
+    "main.js": "/static/js/main.26db09c0.js",
     "static/js/787.5552b612.chunk.js": "/static/js/787.5552b612.chunk.js",
     "static/media/crystal-bowls.jpg": "/static/media/crystal-bowls.4829793e8c3698040729.jpg",
     "static/media/singing-bowls.jpg": "/static/media/singing-bowls.4c2652bf1e6c832d981d.jpg",
@@ -10,12 +10,12 @@
     "static/media/logo-cropped.png": "/static/media/logo-cropped.455a62fc5b89034b75e4.png",
     "static/media/logo.png": "/static/media/logo.3e0b6639df7bbd1d8ea0.png",
     "index.html": "/index.html",
-    "main.4da073b2.css.map": "/static/css/main.4da073b2.css.map",
-    "main.f8b86872.js.map": "/static/js/main.f8b86872.js.map",
+    "main.2854d16b.css.map": "/static/css/main.2854d16b.css.map",
+    "main.26db09c0.js.map": "/static/js/main.26db09c0.js.map",
     "787.5552b612.chunk.js.map": "/static/js/787.5552b612.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4da073b2.css",
-    "static/js/main.f8b86872.js"
+    "static/css/main.2854d16b.css",
+    "static/js/main.26db09c0.js"
   ]
 }
