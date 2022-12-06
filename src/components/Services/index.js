@@ -49,7 +49,7 @@ export default function Services() {
                   </Col>
                 </Row>
               ))}
-              <p>* Price will vary if insurance is accepted</p>
+              <p>* Price will vary if insurance is accepted.</p>
             </Row>
           </Col>
           <Col xs={12} md={5} lg={3} className="crystal-bowl-img-container">

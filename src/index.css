@@ -94,6 +94,7 @@ header {
 
 .nav-links {
   padding: 10px 20px 0 0;
+  padding: 5px;
 }
 
 .nav-logo {
@@ -278,7 +279,7 @@ padding: 0 0 0 40px;
 }
 
 .insurance-text {
-padding-left: 50px
+padding-left: 200px
 }
 
 /* CONTACT */
@@ -329,6 +330,14 @@ and (min-width : 1824px) {
     padding: 100px 20px 200px 20px;
   border-bottom: 1px solid var(--black);
   }
+
+  .nav-container {
+    margin: 0 10px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+  
+  }
 }
 
 
@@ -350,12 +359,14 @@ and (min-width : 1224px) and (max-width: 1823px) {
   border-bottom: 1px solid var(--black);
   }
 
-  /* .about-container {
-    padding: 0 0 0 100px
-  } */
-
+  .nav-container {
+    margin: 0 0 0 -32px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+  
+  }
 }
-
 
 
 /* TABLET SCREEN  */
@@ -407,20 +418,27 @@ header {
  
 header {
   background-color: var(--primary);
-  padding: 10px 0 0 0;
+  padding: 0 0 10px 0;
   border-bottom: 1px solid var(--black);
+  text-align: center;
+}
+
+.nav-container {
+  margin: 0 0 0 -32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
   
   .nav-links {
-    padding: 5px 20px 0 0;
+    padding: 5px 7px 5px 7px;
   }
   
   .nav-logo {
-    margin: 0 0 0 20px;
+    margin: 0;
   }
   
-
-
   body {
     line-height: 1.5;
     font-size: 1rem;
@@ -431,6 +449,11 @@ header {
 
   .section-title {
     text-align: center;
+  }
+
+  .photo-credit {
+    padding: 60px;
+    font-size: x-small;
   }
 
   .about-container {

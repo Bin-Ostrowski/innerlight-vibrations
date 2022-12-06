@@ -19,7 +19,7 @@ export default function Insurance() {
               rel="noreferrer"
               href="https://www.pexels.com/photo/close-up-shot-of-a-person-using-a-singing-bowl-7113296/"
             >
-              Photo by EKATERINA BOLOVTSOVA:
+              Photo by EKATERINA BOLOVTSOVA
             </a>{" "}
           </Col>
           <Col xs={{ order: "first" }} className="insurance-text">
