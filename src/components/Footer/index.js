@@ -19,9 +19,8 @@ export default function Footer() {
         </Row>
         <Row className="justify-content-md-center">
           <Col md={5} className="footer-address">
-            <div>Address:</div>
-            <div>144 E 14th Ave, Suite G</div>
-            <div>Eugene, OR 97401</div>
+            {/* <div>Address:</div> */}
+            <div>Telehealth Only</div>
           </Col>
         </Row>
         <Row className="justify-content-md-center">

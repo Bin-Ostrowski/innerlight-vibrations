@@ -4,15 +4,15 @@ import { Container, Row, Col } from "react-bootstrap";
 const services = [
   {
     product: "30 Minute Vibrational Sound Session",
-    price: "$45",
+    price: "$45   Unavailable at this time",
   },
   {
     product: "50 Minute Vibrational Sound Session",
-    price: "$75",
+    price: "$75   Unavailable at this time",
   },
   {
     product: "60 Minute Integrative Counseling and Vibrational Sound Session",
-    price: "*Varies",
+    price: "*Varies   Unavailable at this time",
   },
   {
     product: "60 Minute Mind-Body Counseling",

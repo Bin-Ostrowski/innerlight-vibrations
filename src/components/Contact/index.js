@@ -47,7 +47,7 @@ export default function ContactForm() {
           validated={validated}
           onSubmit={handleSubmit}
         >
-          <Form.Group className="mb-4 ">
+          {/* <Form.Group className="mb-4 ">
             <Form.Label htmlFor="interests">
               What are you interested in?
             </Form.Label>
@@ -71,7 +71,7 @@ export default function ContactForm() {
                 id="selectCounseling"
               />
             </div>
-          </Form.Group>
+          </Form.Group> */}
 
           <Row>
             <Col md={4}>
@@ -163,7 +163,7 @@ export default function ContactForm() {
                 </Form.Select>
               </Form.Group>
             </Col>
-            <Col md={4}>
+            {/* <Col md={4}>
               <Form.Group className="mb-4">
                 <Form.Label htmlFor="meetingMethod">
                   Preferred Method of Meeting
@@ -179,7 +179,7 @@ export default function ContactForm() {
                   <option value="telehealth">Telehealth</option>
                 </Form.Select>
               </Form.Group>
-            </Col>
+            </Col> */}
           </Row>
           <Row>
             <Form.Group className="mb-3">

@@ -127,6 +127,19 @@ header {
   cursor: pointer;
 }
 
+.banner-section {
+  background-color: var(--secondary);
+  color: var(--black);
+  border-bottom: 1px solid var(--black);
+}
+
+.banner-font {
+  padding: 25px;
+  margin: 0;
+  font-size:larger;
+  text-align: center;
+}
+
 /* HEADER ENDS */
 
 /* MAIN SECTIONS */
@@ -227,6 +240,10 @@ padding: 0 0 0 40px;
   border-radius: 70px;
 }
 
+.sound-note {
+  padding: 20px 0 0 0;
+}
+
 
 /* COUNSELING */
 
@@ -260,6 +277,9 @@ padding: 0 0 0 40px;
 }
 .pricing-list {
   padding-left: 80px;
+}
+.unavailable-list {
+  padding-left: 30px;
 }
 
 /* .crystal-bowl-img-container {
